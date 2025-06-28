@@ -10,7 +10,7 @@ const socialLinks = [
 	{
 		id: 1,
 		icon: <FiGlobe />,
-		url: 'https://www.stoman.me/',
+		url: 'https://my-portfolio-website-plum-theta.vercel.app/',
 	},
 	{
 		id: 2,
