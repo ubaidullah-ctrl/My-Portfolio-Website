@@ -1,4 +1,3 @@
-
 import { analytics1, playstore1, playstore2, playstore3 } from '../images/analyticsImages';
 import screenImage from '../images/screen.png';
 import chaplinThumbnail from '../images/thumbnail.png';
@@ -6,6 +5,7 @@ import chaplinThumbnail from '../images/thumbnail.png';
 export const singleProjectData = [
   // --- Existing Projects ---
   {
+	id: 'tech-ecommerce-shop',
 	ProjectHeader: {
 	  title: 'Tech E-commerce Shop (Singitronic)',
 	  tags: 'Next.js / Node.js / MySQL / Prisma / Tailwind',
@@ -57,9 +57,9 @@ export const singleProjectData = [
 	// RelatedProject removed
   },
   {
+	id: 'lip-reader-ai',
 	ProjectHeader: {
 	  title: 'Lip Reader A.I',
-	  
 	  tags: 'PyTorch / MediaPipe / OpenCV / Python',
 	},
 	ProjectImages: [
@@ -90,9 +90,10 @@ export const singleProjectData = [
 		url: 'https://github.com/ubaidullah-ctrl/Lip-Reader-A.I',
 	  }
 	},
-   // RelatedProject removed
+	// RelatedProject removed
   },
   {
+	id: 'ai-link-summarizer',
 	ProjectHeader: {
 	  title: 'A.I. Link Summarizer',
 	  publishDate: '2025',
@@ -126,10 +127,11 @@ export const singleProjectData = [
 		url: 'https://github.com/ubaidullah-ctrl/AI---Summarizer',
 	  }
 	},
-   // RelatedProject removed
+	// RelatedProject removed
   },
   // --- Analytics Projects ---
   {
+	id: 'playstore-data-analytics',
 	ProjectHeader: {
 	  title: 'Play Store Data Analytics',
 	  tags: 'Python / Excel / SQL / Power BI',
@@ -165,6 +167,7 @@ export const singleProjectData = [
 	}
   },
   {
+	id: 'web-traffic-analytics',
 	ProjectHeader: {
 	  title: 'Web Traffic Analytics & Visualization',
 	  tags: 'Python / Web Scraping / Tableau',
@@ -263,6 +266,85 @@ export const singleProjectData = [
 	  SocialSharing: [],
 	  github: {
 		url: 'https://github.com/ubaidullah-ctrl/web-traffic-dashboard'
+	  }
+	}
+  },
+  
+  {
+	id: 'vulnerability-scanner',
+	ProjectHeader: {
+	  title: 'Vulnerability Scanner',
+	  tags: 'Python / Requests / Security',
+	},
+	ProjectImages: [
+	  { id: 1, title: 'Cybersecurity Illustration', img: 'https://images.unsplash.com/photo-1510511459019-5dda7724fd87?auto=format&fit=crop&w=800&q=80' }
+	],
+	ProjectInfo: {
+	  ClientHeading: 'About Project',
+	  CompanyInfo: [
+		{ id: 1, title: 'Type', details: 'Cybersecurity Tool' },
+		{ id: 2, title: 'Stack', details: 'Python, Requests' }
+	  ],
+	  ObjectivesHeading: 'Description',
+	  ObjectivesDetails: 'The Vulnerability Scanner is a Python-based tool that scans web applications for various vulnerabilities. It leverages the Requests library to interact with the target URLs and identifies potential security weaknesses.',
+	  Technologies: [
+		{ title: 'Tech Stack', techs: ['Python', 'Requests'] }
+	  ],
+	  ProjectDetailsHeading: 'Features',
+	  ProjectDetails: [
+		{ id: 1, details: 'Cross-Site Scripting (XSS) scanning' },
+		{ id: 2, details: 'SQL Injection scanning' },
+		{ id: 3, details: 'Directory Traversal scanning' },
+		{ id: 4, details: 'Command Injection scanning' },
+		{ id: 5, details: 'Server Misconfiguration scanning' },
+		{ id: 6, details: 'Weak Passwords scanning' },
+		{ id: 7, details: 'Network Vulnerabilities scanning' },
+		{ id: 8, details: 'Web Application Security scanning' }
+	  ],
+	  SocialSharingHeading: 'Share This',
+	  SocialSharing: [],
+	  github: {
+		url: 'https://github.com/ubaidullah-ctrl/Web-App-Vulnerability-Scanner'
+	  }
+	}
+  },
+  {
+	id: 'security-log-analyzer',
+	ProjectHeader: {
+	  title: 'Security Log Analyzer',
+	  tags: 'Python / Cybersecurity / Log Analysis / Visualization'
+	},
+	ProjectImages: [
+	  { id: 1, title: 'Threat Analysis Output', img: require('../images/security-log-analyzer-1.PNG').default },
+	  { id: 2, title: 'Threat Scores & Visualizations', img: require('../images/security-log-analyzer-2.PNG').default }
+	],
+	ProjectInfo: {
+	  ClientHeading: 'About Project',
+	  CompanyInfo: [
+		{ id: 1, title: 'Type', details: 'Cybersecurity Tool' },
+		{ id: 2, title: 'Stack', details: 'Python 3.8+, Requests, Plotly, NumPy, SciPy' },
+		{ id: 3, title: 'Year', details: '2025' }
+	  ],
+	  ObjectivesHeading: 'Description',
+	  ObjectivesDetails: 'Security Log Analyzer is a sophisticated Python-based tool designed for cybersecurity professionals to detect, analyze, and visualize potential security threats from web server logs. It provides detailed IP request analysis, suspicious activity detection, endpoint access tracking, threat score calculation, geolocation insights, and interactive visualizations. The tool generates CSV, JSON, and HTML reports for comprehensive threat intelligence and is ideal for both blue teams and security researchers.',
+	  Technologies: [
+		{ title: 'Tech Stack', techs: ['Python', 'Requests', 'Plotly', 'NumPy', 'SciPy'] }
+	  ],
+	  ProjectDetailsHeading: 'Features',
+	  ProjectDetails: [
+		{ id: 1, details: 'Detailed IP request analysis and endpoint tracking' },
+		{ id: 2, details: 'Suspicious activity and anomaly detection' },
+		{ id: 3, details: 'Threat score calculation for each IP' },
+		{ id: 4, details: 'Geolocation insights for threat sources' },
+		{ id: 5, details: 'Interactive visualizations (Plotly HTML reports)' },
+		{ id: 6, details: 'Comprehensive CSV and JSON reporting' },
+		{ id: 7, details: 'Modular codebase for easy extension' },
+		{ id: 8, details: 'CLI-based usage for automation and scripting' }
+	  ],
+	  SocialSharingHeading: 'Share This',
+	  SocialSharing: [],
+	  github: {
+		url: ''
 	  }
 	}
   }
