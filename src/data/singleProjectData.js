@@ -344,7 +344,7 @@ export const singleProjectData = [
 	  SocialSharingHeading: 'Share This',
 	  SocialSharing: [],
 	  github: {
-		url: ''
+		url: 'https://github.com/ubaidullah-ctrl/Security-Log-Analyzer'
 	  }
 	}
   }
