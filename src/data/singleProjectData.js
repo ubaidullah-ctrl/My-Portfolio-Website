@@ -1,15 +1,10 @@
-// Import images
-import Image1 from '../images/ui-project-1.jpg';
-import Image2 from '../images/web-project-2.jpg';
-import Image3 from '../images/mobile-project-2.jpg';
-import Image4 from '../images/mobile-project-1.jpg';
-import Image5 from '../images/web-project-1.jpg';
-import Image6 from '../images/ui-project-2.jpg';
-import chaplinThumbnail from '../images/thumbnail.png';
-import screenImage from '../images/screen.png';
 
+import { analytics1, playstore1, playstore2, playstore3 } from '../images/analyticsImages';
+import screenImage from '../images/screen.png';
+import chaplinThumbnail from '../images/thumbnail.png';
 
 export const singleProjectData = [
+  // --- Existing Projects ---
   {
 	ProjectHeader: {
 	  title: 'Tech E-commerce Shop (Singitronic)',
@@ -59,7 +54,7 @@ export const singleProjectData = [
 		url: 'https://github.com/ubaidullah-ctrl/Electronic-Ecommerce-Store',
 	  }
 	},
-   // RelatedProject removed
+	// RelatedProject removed
   },
   {
 	ProjectHeader: {
@@ -132,5 +127,143 @@ export const singleProjectData = [
 	  }
 	},
    // RelatedProject removed
+  },
+  // --- Analytics Projects ---
+  {
+	ProjectHeader: {
+	  title: 'Play Store Data Analytics',
+	  tags: 'Python / Excel / SQL / Power BI',
+	},
+	ProjectImages: [
+	  { id: 1, title: 'Dashboard Page 1', img: playstore1 },
+	  { id: 2, title: 'Dashboard Page 2', img: playstore2 },
+	  { id: 3, title: 'Dashboard Page 3', img: playstore3 }
+	],
+	ProjectInfo: {
+	  ClientHeading: 'About Project',
+	  CompanyInfo: [
+		{ id: 1, title: 'Type', details: 'End-to-End Data Analytics' },
+		{ id: 2, title: 'Stack', details: 'Python, Excel, SQL, Power BI' }
+	  ],
+	  ObjectivesHeading: 'Description',
+	  ObjectivesDetails: 'A comprehensive end-to-end data analytics project focused on Play Store data. Leveraging Python, Excel, SQL, and Power BI, this project delivers actionable insights through interactive dashboards, uncovering trends and patterns in app performance and user engagement.',
+	  Technologies: [
+		{ title: 'Tech Stack', techs: ['Python', 'Excel', 'SQL', 'Power BI'] }
+	  ],
+	  ProjectDetailsHeading: 'Features',
+	  ProjectDetails: [
+		{ id: 1, details: 'Data cleaning and transformation using Python and Excel' },
+		{ id: 2, details: 'SQL for advanced querying and aggregation' },
+		{ id: 3, details: 'Interactive Power BI dashboards for deep insights' },
+		{ id: 4, details: 'Visual storytelling with multi-page dashboards' }
+	  ],
+	  SocialSharingHeading: 'Share This',
+	  SocialSharing: [],
+	  github: {
+		url: 'https://github.com/ubaidullah-ctrl/playstore-analytics'
+	  }
+	}
+  },
+  {
+	ProjectHeader: {
+	  title: 'Web Traffic Analytics & Visualization',
+	  tags: 'Python / Web Scraping / Tableau',
+	},
+	ProjectImages: [
+	  { id: 1, title: 'Web Traffic Dashboard', img: analytics1 }
+	],
+	ProjectInfo: {
+	  ClientHeading: 'About Project',
+	  CompanyInfo: [
+		{ id: 1, title: 'Type', details: 'Data Analytics & Visualization' },
+		{ id: 2, title: 'Stack', details: 'Python, Tableau' }
+	  ],
+	  ObjectivesHeading: 'Description',
+	  ObjectivesDetails: 'This project combines web scraping and data visualization to analyze the distribution of therapeutic centers in Poland. Using Python for data extraction and Tableau for interactive dashboards, it provides valuable insights into the geographic spread and accessibility of therapy services.',
+	  Technologies: [
+		{ title: 'Tech Stack', techs: ['Python', 'Requests', 'BeautifulSoup', 'Tableau'] }
+	  ],
+	  ProjectDetailsHeading: 'Features',
+	  ProjectDetails: [
+		{ id: 1, details: 'Automated web scraping of real-world healthcare data' },
+		{ id: 2, details: 'Data cleaning and export to CSV' },
+		{ id: 3, details: 'Interactive Tableau dashboard for geographic analysis' },
+		{ id: 4, details: 'Supports families, policymakers, and researchers' }
+	  ],
+	  SocialSharingHeading: 'Share This',
+	  SocialSharing: [],
+	  github: {
+		url: 'https://github.com/ubaidullah-ctrl/Web-Scraping-Data-Visualization-Therapeutic-Centers-in-Poland'
+	  }
+	}
+  },
+  // --- Analytics Projects ---
+  {
+	ProjectHeader: {
+	  title: 'Play Store Data Analytics',
+	  tags: 'Python / Excel / SQL / Power BI',
+	},
+	ProjectImages: [
+	  { id: 1, title: 'Dashboard Page 1', img: playstore1 },
+	  { id: 2, title: 'Dashboard Page 2', img: playstore2 },
+	  { id: 3, title: 'Dashboard Page 3', img: playstore3 }
+	],
+	ProjectInfo: {
+	  ClientHeading: 'About Project',
+	  CompanyInfo: [
+		{ id: 1, title: 'Type', details: 'End-to-End Data Analytics' },
+		{ id: 2, title: 'Stack', details: 'Python, Excel, SQL, Power BI' }
+	  ],
+	  ObjectivesHeading: 'Description',
+	  ObjectivesDetails: 'A comprehensive end-to-end data analytics project focused on Play Store data. Leveraging Python, Excel, SQL, and Power BI, this project delivers actionable insights through interactive dashboards, uncovering trends and patterns in app performance and user engagement.',
+	  Technologies: [
+		{ title: 'Tech Stack', techs: ['Python', 'Excel', 'SQL', 'Power BI'] }
+	  ],
+	  ProjectDetailsHeading: 'Features',
+	  ProjectDetails: [
+		{ id: 1, details: 'Data cleaning and transformation using Python and Excel' },
+		{ id: 2, details: 'SQL for advanced querying and aggregation' },
+		{ id: 3, details: 'Interactive Power BI dashboards for deep insights' },
+		{ id: 4, details: 'Visual storytelling with multi-page dashboards' }
+	  ],
+	  SocialSharingHeading: 'Share This',
+	  SocialSharing: [],
+	  github: {
+		url: 'https://github.com/ubaidullah-ctrl/playstore-analytics'
+	  }
+	}
+  },
+  {
+	ProjectHeader: {
+	  title: 'Web Traffic Analytics & Visualization',
+	  tags: 'Python / Web Scraping / Tableau',
+	},
+	ProjectImages: [
+	  { id: 1, title: 'Web Traffic Dashboard', img: analytics1 }
+	],
+	ProjectInfo: {
+	  ClientHeading: 'About Project',
+	  CompanyInfo: [
+		{ id: 1, title: 'Type', details: 'Data Analytics & Visualization' },
+		{ id: 2, title: 'Stack', details: 'Python, Tableau' }
+	  ],
+	  ObjectivesHeading: 'Description',
+	  ObjectivesDetails: 'This project combines web scraping and data visualization to analyze the distribution of therapeutic centers in Poland. Using Python for data extraction and Tableau for interactive dashboards, it provides valuable insights into the geographic spread and accessibility of therapy services.',
+	  Technologies: [
+		{ title: 'Tech Stack', techs: ['Python', 'Requests', 'BeautifulSoup', 'Tableau'] }
+	  ],
+	  ProjectDetailsHeading: 'Features',
+	  ProjectDetails: [
+		{ id: 1, details: 'Automated web scraping of real-world healthcare data' },
+		{ id: 2, details: 'Data cleaning and export to CSV' },
+		{ id: 3, details: 'Interactive Tableau dashboard for geographic analysis' },
+		{ id: 4, details: 'Supports families, policymakers, and researchers' }
+	  ],
+	  SocialSharingHeading: 'Share This',
+	  SocialSharing: [],
+	  github: {
+		url: 'https://github.com/ubaidullah-ctrl/web-traffic-dashboard'
+	  }
+	}
   }
 ];

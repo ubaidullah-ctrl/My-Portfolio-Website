@@ -39,5 +39,27 @@ export const projectsData = [
 	  tags: 'Next.js / Node.js / OpenAI API / Tailwind',
 	},
 	description: 'A modern web tool that takes a URL and returns a short, intelligent summary using OpenAI’s language model. Built with a clean UI using Next.js and integrated with OpenAI’s API for real-time content summarization.'
+  },
+  {
+	id: 4,
+	title: 'Play Store Data Analytics',
+	category: 'Data Analytics',
+	img: require('../images/playstore-dashboard1.png').default,
+	ProjectHeader: {
+	  title: 'Play Store Data Analytics',
+	  tags: 'Python / Excel / SQL / Power BI',
+	},
+	description: 'A comprehensive end-to-end data analytics project focused on Play Store data. Leveraging Python, Excel, SQL, and Power BI, this project delivers actionable insights through interactive dashboards, uncovering trends and patterns in app performance and user engagement.'
+  },
+  {
+	id: 5,
+	title: 'Web Traffic Analytics & Visualization',
+	category: 'Data Analytics',
+	img: require('../images/analytics-dashboard1.png').default,
+	ProjectHeader: {
+	  title: 'Web Traffic Analytics & Visualization',
+	  tags: 'Python / Web Scraping / Tableau',
+	},
+	description: 'This project combines web scraping and data visualization to analyze the distribution of therapeutic centers in Poland. Using Python for data extraction and Tableau for interactive dashboards, it provides valuable insights into the geographic spread and accessibility of therapy services.'
   }
 ];
