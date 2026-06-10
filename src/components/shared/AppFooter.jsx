@@ -1,6 +1,5 @@
 import {
 	FiGithub,
-	FiTwitter,
 	FiLinkedin,
 	FiGlobe,
 } from 'react-icons/fi';
@@ -18,16 +17,10 @@ const socialLinks = [
 		url: 'https://github.com/ubaidullah-ctrl',
 	},
 	{
-		id: 3,
-		icon: <FiTwitter />,
-		url: 'https://x.com/UbaidCtrl',
-	},
-	{
 		id: 4,
 		icon: <FiLinkedin />,
 		url: 'https://www.linkedin.com/in/ubaid-ullah-/',
 	},
-
 ];
 
 const AppFooter = () => {

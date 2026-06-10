@@ -4,10 +4,7 @@ import Button from './reusable/Button';
 
 const selectOptions = [
 	'Web Application',
-	'Cyber Security',
-	'Data Analytics',
 	'Other'
-
 ];
 
 const HireMeModal = ({ onClose, onRequest }) => {

@@ -1,5 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
 <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="64" height="64" rx="16" fill="#0ea5e9"/>
-  <text x="50%" y="50%" text-anchor="middle" fill="#fff" font-size="28" font-family="Arial, Helvetica, sans-serif" dy=".35em">Ubaid</text>
+  <defs>
+    <linearGradient id="neonGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="#0f172a" stroke="url(#neonGlow)" stroke-width="2.5" />
+  <path d="M22 20 V36 C22 42.5 27.5 48 34 48 C40.5 48 46 42.5 46 36 V20" stroke="url(#neonGlow)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="34" cy="34" r="5" fill="#f9fafb" />
 </svg>
